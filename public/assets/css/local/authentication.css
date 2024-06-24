@@ -1,0 +1,76 @@
+* {
+    font-family: 'Poppins';
+}
+
+.form-content .form-items {
+    max-width: 650px;
+    text-align: left;
+}
+
+.input-group .form-control {
+    height: 3.5rem;
+}
+
+.form-body {
+    background-color: #F8F9FA;
+}
+
+.form-content {
+    background-color: #F8F9FA;
+}
+
+.form-control {
+    border-color: #dee2e6 !important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff !important;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.input-group-text {
+    background: #ffffff;
+}
+
+.input-group .input-group-text {
+    height: 3.5rem !important;
+}
+
+label.error {
+    color: red;
+    font-size: 14px;
+}
+
+input.error, textarea.error, select.error {
+    border: 2px dashed orangered !important;
+}
+
+.input-group {
+    height: 60px;
+}
+
+.form-content .btn {
+    margin: 0px !important;
+}
+
+.form-check {
+    padding: 0 !important;
+}
+
+.form-content input[type="checkbox"]:checked + label:after, .form-content input[type="checkbox"]:not(:checked) + label:after {
+    font-family: "Font Awesome 5 Pro" !important;
+}
+
